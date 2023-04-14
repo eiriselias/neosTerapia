@@ -26,3 +26,9 @@ hr{
     height: 3px;
     background: linear-gradient(to left, rgb(57, 46, 134), rgb(40,188,143));
 }
+@media (max-width: 767px) {
+    /* Estilos para dispositivos móviles */
+    .respiratoriaImagen{
+        display: none;
+    }
+}

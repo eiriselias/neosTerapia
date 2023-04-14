@@ -34,3 +34,26 @@ img{
     justify-content: flex-end;
     align-items: center;
 }
+
+@media (max-width: 767px) {
+    .container{
+        height: max-content;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .col-6{
+        width: 100vw;
+        h4{
+            font-size: medium;
+        }
+    }
+    .col-4{
+        justify-content: space-between;
+    }
+    .movil{
+        display: none;
+    }
+}

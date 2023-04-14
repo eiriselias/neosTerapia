@@ -27,3 +27,26 @@ hr{
     height: 3px;
     background: linear-gradient(to left, white, rgb(40,188,143));
 }
+@media (max-width: 767px) {
+    .container{
+        height: max-content;
+    }
+    .row{
+        display: flex;
+        //flex-direction: column;
+        width: 100%;
+    }
+    img{
+        width: 200px;
+    }
+    .col-2{
+        padding-top: 0;
+        justify-content: center;
+    }
+    .col-6{
+        padding-top: 0;
+        h4{
+            font-size: small;
+        }
+    }
+}
