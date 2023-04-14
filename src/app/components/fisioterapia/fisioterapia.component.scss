@@ -30,3 +30,12 @@ img{
     width: 40rem;
     height: 10rem;
 }
+
+@media (max-width: 767px){
+    .container{
+        height: max-content;
+    }
+    h4{
+        font-size: small;
+    }
+}

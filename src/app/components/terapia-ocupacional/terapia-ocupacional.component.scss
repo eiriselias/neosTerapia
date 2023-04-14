@@ -25,7 +25,20 @@ hr{
 
 @media (max-width: 767px) {
     /* Estilos para dispositivos móviles */
-    .ocupacionalImagen{
-        display:none;
+    .container{
+        height: max-content;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-5{
+        width: 100vw;
+        h4{
+            font-size: medium;
+        }
+    }
+    img{
+        width: 100vw;
     }
 }
