@@ -42,3 +42,18 @@ hr{
         width: 100vw;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1340px) {
+    .container{
+        height: max-content;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-5{
+        width: 100vw;
+    }
+    img{
+        width: 100vw;
+    }
+}

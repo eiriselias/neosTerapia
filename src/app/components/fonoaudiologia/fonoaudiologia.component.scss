@@ -48,3 +48,25 @@ hr{
         justify-content: space-between;
     }
 }
+
+@media screen and (min-width:768px) and (max-width: 1340px) {
+    /* Estilos para dispositivos móviles */
+    .container{
+        height: max-content;
+    }
+    .row {
+        display:flex;
+        flex-direction: column;
+    }
+    img{
+        width: 100vw;
+    }
+    .col-4{
+        width: 100vw;
+        padding: 2rem;
+    }
+    .col-6{
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

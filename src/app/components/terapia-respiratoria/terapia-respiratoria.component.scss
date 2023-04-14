@@ -63,3 +63,34 @@ hr{
         }
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1340px) {
+    /* Agrega tus estilos aquí */
+    .container{
+        width: 100vw;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 95%;
+    }
+    .imagen{
+        padding: 0;
+        justify-content: space-between;
+        .col-12{
+            padding: 0;
+            
+            justify-content: center;
+        }
+    }
+    .col-12{
+        width: 100vw;
+        h4{
+            font-size:medium;
+            padding: 1rem;
+        }
+        h2{
+            padding: 1rem;
+        }
+    }
+}
