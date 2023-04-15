@@ -14,7 +14,7 @@
 .form-input:hover{
     background-color: #ccc;
 }
-.form-submit {
+.boton {
     background-color: rgb(40,188,143);
     color: white;
     padding: 12px 20px;
@@ -22,8 +22,11 @@
     border-radius: 4px;
     cursor: pointer;
 }
-.form-submit:hover {
+.boton:hover {
     background-color: #3e8e41;
+    h4{
+        color:white;
+    }
 }
 label{
     color: rgb(40,188,143);
@@ -42,6 +45,24 @@ h4{
     color: rgb(57, 46, 134);
     text-align: justify;
 }
+label h4{
+    color: rgb(40,188,143);
+    text-align: justify;
+}
+input{
+    color:white;
+}
+input:hover{
+    color:black;
+}
+
+textarea{
+    color:white;
+}
+textarea:hover{
+    color:black;
+}
+
 footer {
     background-color: #33333388;
     color: #fff;

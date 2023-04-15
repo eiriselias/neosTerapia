@@ -22,21 +22,21 @@
             </div>
         </div>
         <div class="col-6">
-            <form (ngSubmit)="enviarComentario()">
-                <label>Correo:</label>
+            <form>
+                <label><h4>Correo</h4></label>
                 <input type="email" name="correo" [(ngModel)]="correo" required class="form-input">
 
-                <label>Asunto:</label>
+                <label><h4>Asunto:</h4></label>
                 <input type="text" name="asunto" [(ngModel)]="asunto" required class="form-input">
 
-                <label>Comentario:</label>
-                <textarea name="comentario" [(ngModel)]="comentario" required class="form-input"></textarea>
+                <label><h4>Mensaje:</h4></label>
+                <textarea name="mensaje" [(ngModel)]="mensaje" required class="form-input"></textarea>
 
-                <button type="submit" class="form-submit">Enviar</button>
+                <button type="button" class="boton" (click)="enviarFormulario()"><h4>Enviar</h4></button>
             </form>
         </div>    
     </div>
 </div>
 <footer>
-    <p>© 2023 Eiris Elias Salazar Aguilar. Todos los derechos reservados</p>
+    <p>© 2023 Neos Terapia. Todos los derechos reservados</p>
 </footer>

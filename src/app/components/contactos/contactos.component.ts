@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contactos',
@@ -11,15 +12,14 @@ export class ContactosComponent implements OnInit {
 
   ngOnInit(): void {
   }
-correo: string ="";
-asunto: string="";
-comentario: string="";
-
-enviarComentario() {
-  console.log(`Correo: ${this.correo}`);
-  console.log(`Asunto: ${this.asunto}`);
-  console.log(`Comentario: ${this.comentario}`);
-}
+  correo: string="";
+  asunto: string="";
+  mensaje: string="";
 
 
+  enviarFormulario(){
+    console.log(this.correo)
+    console.log(this.asunto)
+    console.log(this.mensaje)
+  }
 }
