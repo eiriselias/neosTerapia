@@ -12,6 +12,7 @@ import { TerapiaOcupacionalComponent } from './components/terapia-ocupacional/te
 import { FonoaudiologiaComponent } from './components/fonoaudiologia/fonoaudiologia.component';
 import { TerapiaRespiratoriaComponent } from './components/terapia-respiratoria/terapia-respiratoria.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ContactosComponent } from './components/contactos/contactos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

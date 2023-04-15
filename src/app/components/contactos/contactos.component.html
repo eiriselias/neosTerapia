@@ -1,1 +1,42 @@
-<p>contactos works!</p>
+<div class="container" id="contactos">
+    <div class="row">
+        <h1>Contactanos</h1>
+        <hr>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h4>Puedes encontrarnos en las redes sociales para mantenerte al día con nuestras últimas noticias y 
+                eventos, o si prefieres, puedes llamarnos directamente para hablar con uno de nuestros 
+                representantes y obtener más información</h4>
+            <h4>Llámanos al <a href="tel:+57313000000">+57 313 000 000</a> para hablar con un representante.</h4>
+            <div class="row iconos">
+                <div class="col-4">
+                    <a href="https://www.facebook.com/tupagina" target="_blank"><i class="fab fa-facebook fa-4x"></i></a>
+                </div>
+                <div class="col-4">
+                    <a href="https://twitter.com/tupagina" target="_blank"><i class="fab fa-twitter fa-4x"></i></a>
+                </div>
+                <div class="col-4">
+                    <a href="https://www.instagram.com/tupagina" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <form (ngSubmit)="enviarComentario()">
+                <label>Correo:</label>
+                <input type="email" name="correo" [(ngModel)]="correo" required class="form-input">
+
+                <label>Asunto:</label>
+                <input type="text" name="asunto" [(ngModel)]="asunto" required class="form-input">
+
+                <label>Comentario:</label>
+                <textarea name="comentario" [(ngModel)]="comentario" required class="form-input"></textarea>
+
+                <button type="submit" class="form-submit">Enviar</button>
+            </form>
+        </div>    
+    </div>
+</div>
+<footer>
+    <p>© 2023 Eiris Elias Salazar Aguilar. Todos los derechos reservados</p>
+</footer>
