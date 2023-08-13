@@ -13,6 +13,7 @@ import { FonoaudiologiaComponent } from './components/fonoaudiologia/fonoaudiolo
 import { TerapiaRespiratoriaComponent } from './components/terapia-respiratoria/terapia-respiratoria.component';
 import { ContactosComponent } from './components/contactos/contactos.component';
 import { FormsModule } from '@angular/forms';
+import { RecomendacionesComponent } from './components/recomendaciones/recomendaciones.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     TerapiaOcupacionalComponent,
     FonoaudiologiaComponent,
     TerapiaRespiratoriaComponent,
-    ContactosComponent
+    ContactosComponent,
+    RecomendacionesComponent
   ],
   imports: [
     BrowserModule,
