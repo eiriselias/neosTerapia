@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import * as Aos from 'aos';
 
 @Component({
   selector: 'app-contactos',
@@ -11,15 +11,6 @@ export class ContactosComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
-  correo: string="";
-  asunto: string="";
-  mensaje: string="";
-
-
-  enviarFormulario(){
-    console.log(this.correo)
-    console.log(this.asunto)
-    console.log(this.mensaje)
+    Aos.init();
   }
 }
